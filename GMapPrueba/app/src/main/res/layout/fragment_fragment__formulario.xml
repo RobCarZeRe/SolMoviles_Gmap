@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment_Formulario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/llDesde">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDesde"
+            android:text="Desde:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-18.009717,-70.245673"
+            android:id="@+id/etDesde"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_trazarRutaUPT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trazar Ruta"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>
